@@ -1,4 +1,4 @@
-package com.dio.collections;
+package com.dio.collections.operacoesBasicasComList;
 
 import java.util.List;
 
