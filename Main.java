@@ -7,6 +7,7 @@ public class Main {
 	
 	public static void main (String[] args) {
 		
+		/*
 		Tarefa tarefas = new Tarefa();
 		
 		// Adicionando tarefas
@@ -23,6 +24,17 @@ public class Main {
 		
 		// Número total de tarefas
 		tarefas.obterNumeroTotalTarefas();
+		*/
+		
+		CarrinhoDeCompras carrinhoDeCompras = new CarrinhoDeCompras();
+		
+		carrinhoDeCompras.adicionarItem("Smart TV 4k 50 LG", 2116, 1);
+		carrinhoDeCompras.adicionarItem("Sofá Retrátil", 699, 1);
+		carrinhoDeCompras.exibirItens();
+		carrinhoDeCompras.calcularValorTotal();
+		
+		carrinhoDeCompras.removerItem("Smart");
+		carrinhoDeCompras.calcularValorTotal();
 		
 	}
 
